@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/*共通部分*/
+
+.html{
+        font-size: 62.5%;
+}
+
+
+.body{
+        color: white;
+        font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+        font-size: 1.8rem;
+        line-height: 50%;
+        width: 1440px;
+}
+
+    * {
+        box-shadow: 0 0 0 1px orange;
+    }
+
+
+/* ヘッダー */
+
+.title {
+    font-size: 3.6rem;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+/* メイン */
+
+.mike {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.write {
+    text-align: center;
+    font-size: 2.4rem;
+    color: blue;
+    font-weight: bold;
+}
+
+.gazou {
+    margin-top: 30px;
+}
+
+
+/*フッター*/
+.footer{
+    background-color: black;
+    color: white;
+    margin-top: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 100%;
+    text-align: center;
+}
