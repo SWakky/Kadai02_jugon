@@ -13,20 +13,34 @@
 
 <!-- 音声認識の遊び --> 
 <div class="title">
-    <header>～呪言～狗巻くん</header>
+    <header>狗巻くんの呪言</header>
 </div>
 
 <main>
+<div class="setumei">
+    呪言（じゅごん）とは、<br>
+    その名のとおり呪いのこもった言葉を発することで、相手を攻撃できる呪術だ。<br>
+    「爆ぜろ」と言えば相手によっては爆発させることができ、<br>
+    「止まれ」と言えば相手を止めることができる。<br>
+    しかし、身体への負担が大きい呪術であるため、<br>
+    闇雲に話すことや強い言葉は反動があるので注意しよう。<br><br>
+    さあ、アナタにも特別に術式を付与した！<br>
+    「start」ボタンで呪言を発し、「stop」で確定しよう！！
+</div>
+
     <div class="mike">
         <button id="start-btn">start</button>
         <button id="stop-btn">stop</button>
     </div>
+    <div class="re">
+        <input type="button" value="もう１回する" onclick="window.location.reload();" />
+    </div>
     <div class="write">
-        <div id="result-div"></div>
+        <div id="result-div"><span id=jugon></span></div>
     </div>
 
-    <div class="gazou">
-        <img src="image/toge.jpg" alt="" style="width:100%;">
+    <div class="gazou" style="text-align: center;">
+        <img src="image/toge.jpg" alt="" style="width:80%;">
     </div>
 
 
